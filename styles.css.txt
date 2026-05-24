@@ -1,0 +1,55 @@
+styles.css
+body{
+  background-color: #130b34;
+  color: white;
+  font-family: arial;
+  
+}
+
+h1{
+  text-align:center;
+  font-family:Tahoma;
+  color:#FFFFAE;
+  margin-bottom: 5px;
+}
+
+p{
+  text-align:center;
+  margin-top:0;
+  margin-bottom: 25px
+}
+
+fieldset{
+  border:none;
+   margin-bottom: 10px;
+}
+
+input,
+select,
+option,
+textarea{
+  background-color: #1b1b48 ;
+  color: white;
+  border-radius: 5px;
+    padding: 5px;
+}
+
+label{
+  display: block;
+  padding:2px
+}
+
+input[type="submit"]{
+  display: block;
+  margin: auto;
+  padding: 5px 5px;
+  font-size: 18px;
+  background-color: #FFFFAE;
+  border:2px solid black;
+  color:black;
+
+}
+
+textarea{
+  margin-top: 5px;
+}

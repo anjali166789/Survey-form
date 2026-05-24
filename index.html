@@ -1,0 +1,59 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>freeCodeCamp Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">We appreciate your time and suggestions.</p>
+     <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+     <fieldset>
+      <label for="name" id="name-label">Name:- <input type="text" id="name" placeholder="First name and Last name" required></label>
+      </fieldset>
+      <fieldset>
+        <label for="email" id="email-label">Email:- <input type="email" id="email" placeholder="eg. xyz@gmail.com" required></label>
+      </fieldset>
+      <fieldset>
+        <label for="number" id="number-label">Age:- <input type="number" id="number" min="15" max="100" placeholder="eg. 18" required></label>
+      </fieldset>
+      <fieldset>
+        <label>How often do you practice coding?</label>
+        <select id="dropdown">
+          <option value="">Select any one option</option>
+          <option value="1">Daily</option>
+          <option value="2">Weekly</option>
+          <option value="3">Occationally</option>
+        </select>
+      </fieldset>
+      <fieldset>
+         <legend> What is your current skill level?</legend>
+        <label for ="beginner"><input type="radio" id="beginner" name="skill level" value="beginner"> Beginner
+        </label>
+        <label for="intermediate"><input type="radio" id="intermediate" name="skill level" value="intermediate"> Intermediate
+        </label>
+        <label for="advanced"><input type="radio" id="advanced" name="skill level" value="advanced"> Advanced
+        </label>
+      </fieldset>  
+      <fieldset>
+        <legend>Which features do you use on our website?</legend>
+        <label><input type="checkbox" value="tutorials"> Tutorials</label>
+        <label><input type="checkbox" value="coding challenges"> Coding Challenges</label>
+        <label><input type="checkbox" value="projects"> Projects</label>
+        <label><input type="checkbox" value="certificates"> Certificates</label>
+        </fieldset>
+        <fieldset>
+        <label for="comment">Any suggestions or comments?</label>
+          <textarea id="comment" placeholder="Enter you comment here..."></textarea>
+          </fieldset>
+          <input type="submit" value="Submit" id="submit"/>
+     </form>
+
+  </body>
+
+  </html>
+
+
+
